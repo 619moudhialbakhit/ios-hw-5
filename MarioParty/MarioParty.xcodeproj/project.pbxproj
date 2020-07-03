@@ -23,6 +23,8 @@
 		9449EE762429F105006D3BD4 /* BG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9449EE752429F105006D3BD4 /* BG.wav */; };
 		C293115F24AE9B6900ECC8F7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293115E24AE9B6900ECC8F7 /* Player.swift */; };
 		C293116224AEC11C00ECC8F7 /* PlayerDetalisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293116124AEC11C00ECC8F7 /* PlayerDetalisVC.swift */; };
+		C293116424AFBC9400ECC8F7 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293116324AFBC9400ECC8F7 /* UIImage+Gif.swift */; };
+		C293116724AFBCF800ECC8F7 /* mario.gif in Resources */ = {isa = PBXBuildFile; fileRef = C293116624AFBCF800ECC8F7 /* mario.gif */; };
 		D22BA088242A4006002EC169 /* MarioCharactersAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		9449EE752429F105006D3BD4 /* BG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BG.wav; sourceTree = "<group>"; };
 		C293115E24AE9B6900ECC8F7 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		C293116124AEC11C00ECC8F7 /* PlayerDetalisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetalisVC.swift; sourceTree = "<group>"; };
+		C293116324AFBC9400ECC8F7 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		C293116624AFBCF800ECC8F7 /* mario.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mario.gif; sourceTree = "<group>"; };
 		D22BA087242A4006002EC169 /* MarioCharactersAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MarioCharactersAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,8 @@
 		9449EE4024299E69006D3BD4 /* MarioParty */ = {
 			isa = PBXGroup;
 			children = (
+				C293116524AFBCD600ECC8F7 /* gif */,
+				C293116624AFBCF800ECC8F7 /* mario.gif */,
 				C293115D24AE9AB200ECC8F7 /* Models */,
 				9449EE4124299E69006D3BD4 /* AppDelegate.swift */,
 				9449EE4324299E69006D3BD4 /* SceneDelegate.swift */,
@@ -109,6 +115,14 @@
 				C293116124AEC11C00ECC8F7 /* PlayerDetalisVC.swift */,
 			);
 			path = viewController;
+			sourceTree = "<group>";
+		};
+		C293116524AFBCD600ECC8F7 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				C293116324AFBC9400ECC8F7 /* UIImage+Gif.swift */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 		D22BA084242A3FD9002EC169 /* Fonts */ = {
@@ -206,6 +220,7 @@
 				9449EE722429B54B006D3BD4 /* Yoshi.WAV in Resources */,
 				9449EE4B24299E6D006D3BD4 /* Assets.xcassets in Resources */,
 				9449EE6C2429B50B006D3BD4 /* Peach.WAV in Resources */,
+				C293116724AFBCF800ECC8F7 /* mario.gif in Resources */,
 				9449EE762429F105006D3BD4 /* BG.wav in Resources */,
 				9449EE6E2429B51E006D3BD4 /* Waluigi.WAV in Resources */,
 				9449EE4924299E69006D3BD4 /* Main.storyboard in Resources */,
@@ -220,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C293116424AFBC9400ECC8F7 /* UIImage+Gif.swift in Sources */,
 				C293116224AEC11C00ECC8F7 /* PlayerDetalisVC.swift in Sources */,
 				C293115F24AE9B6900ECC8F7 /* Player.swift in Sources */,
 				9449EE4624299E69006D3BD4 /* ViewController.swift in Sources */,

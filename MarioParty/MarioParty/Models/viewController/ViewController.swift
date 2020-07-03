@@ -13,6 +13,8 @@ var selectedPlayer = Player(name: "Mario")
 
 class ViewController: UIViewController {
     @IBOutlet weak var playerImageView: UIImageView!
+    
+    
     var playerSoundEffect: AVAudioPlayer?
     var backgroundMusic : AVAudioPlayer?
     
