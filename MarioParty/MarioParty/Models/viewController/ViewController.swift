@@ -14,6 +14,7 @@ var selectedPlayer = Player(name: "Mario")
 class ViewController: UIViewController {
     @IBOutlet weak var playerImageView: UIImageView!
     
+    @IBOutlet weak var gifImage: UIImageView!
     
     var playerSoundEffect: AVAudioPlayer?
     var backgroundMusic : AVAudioPlayer?
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         playbackgroundMusic(musicName: "BG.wav")
+        gifImages()
     }
     
     func playbackgroundMusic(musicName: String){
@@ -57,9 +59,16 @@ class ViewController: UIViewController {
         playerImageView.image = UIImage(named: randomPlayer.name)
         playMusic(musicName: randomPlayer.musicName())
         selectedPlayer = randomPlayer
+    
+    }
+     
+    func gifImages(){
+    let jeremyGif = UIImage.gifImageWithName("SuperMario")
+        gifImage.image = jeremyGif
+   // gifImage.frame = CGRect(x: 20.0, y: 50.0, width: self.view.frame.size.width - 40, height: 150.0)
+    view.addSubview(gifImage)
         
     }
-    
 }
 
 
